@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",                          // Ensure compatibility with modern JS
+    "module": "ESNext",                          // Use ES modules
+    "moduleResolution": "Node",
+    "strict": true,                              // Enable strict type checking
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "useDefineForClassFields": true,
+    "jsx": "preserve",
+    "sourceMap": false,                          // Disable source maps
+    "outDir": "./dist",                          // Redirect compiled output to the dist folder
+    "rootDir": "./src",                          // Ensure the source files remain in the src folder
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.vue"],
+  "exclude": ["node_modules", "dist"]
+}
