@@ -1,1 +1,0 @@
-{"version":3,"file":"departmentService.js","sourceRoot":"","sources":["departmentService.ts"],"names":[],"mappings":"AACA,OAAO,WAAW,MAAM,eAAe,CAAC;AAExC,MAAM,iBAAkB,SAAQ,WAAW;IACzC,KAAK,CAAC,iBAAiB;QACrB,MAAM,QAAQ,GAAG,MAAM,IAAI,CAAC,SAAS,CAAC,GAAG,CAAC,cAAc,CAAC,CAAC;QAC1D,OAAO,QAAQ,CAAC,IAAI,EAAE,MAAM,CAAC;IAC/B,CAAC;CACF;AAED,eAAe,IAAI,iBAAiB,EAAE,CAAC"}
